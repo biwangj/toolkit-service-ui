@@ -19,7 +19,7 @@ export default function Header({
   return (
     <header
       className={`relative w-full px-8 py-4 transition-colors duration-300
-       ${darkMode ? "bg-blue-950 border-blue-800 text-white" : "bg-white border-gray-300 text-gray-900"}`}>
+       ${darkMode ? "bg-blue-950 text-white" : "bg-gray-200 text-gray-900"}`}>
 
       <div className="flex items-center justify-between">
       

@@ -83,8 +83,8 @@ export default function DocumentDownloader({darkMode}: DocumentProps) {
 
   return (
     <div>
-      <div className={`${darkMode ? "bg-blue-950" : "bg-white text-black"} p-8 rounded-3xl shadow-2xl transition-all duration-300 ease-in-out 
-                       overflow-hidden ${type === "DOCX" ? "w-[800px]" : "w-[500px]"} ${type === "XLSX" ? "w-[600px]" : "w-[500px]"}`}>
+      <div className={`${darkMode ? "bg-blue-950 border-blue-900" : "bg-white border-gray-400 text-black"} p-8 rounded-3xl shadow-2xl transition-all duration-300 ease-in-out 
+                       border-1 overflow-hidden ${type === "DOCX" ? "w-[800px]" : "w-[500px]"} ${type === "XLSX" ? "w-[600px]" : "w-[500px]"}`}>
         {type && (
           /* Back */
           <motion.button

@@ -29,7 +29,7 @@ export default function Sidebar({
 
   return (
     <aside className={`relative h-full p-4 overflow-hidden border-r transition-all duration-300 ease-in-out shirnk-0 ${collapsed ? "w-20" : "w-64"}
-                     ${darkMode ? "bg-blue-950 border-blue-800 text-white" : "bg-white border-gray-300 text-gray-900"}`}>
+                     ${darkMode ? "bg-blue-950 border-blue-800 text-white" : "bg-gray-200 border-gray-400 text-gray-900"}`}>
 
       <button
         onClick={() => setCollapsed(!collapsed)}

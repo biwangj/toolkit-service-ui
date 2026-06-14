@@ -57,7 +57,7 @@ export default function App() {
         />
 
         <div className="flex flex-col flex-1">
-          <div className={`h-[1px] ${darkMode ? "bg-blue-800" : "bg-gray-300"}`} />
+          <div className={`h-[1px] ${darkMode ? "bg-blue-800" : "bg-gray-400"}`} />
           <main
             className={`flex-1 items-center justify-center p-8 ${selectedPage === "" ? "" : "flex"}`}
           >

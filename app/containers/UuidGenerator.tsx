@@ -29,7 +29,7 @@ export default function UuidGenerator({darkMode}: IdProps) {
   const showClear = uuid.trim();
 
   return (
-    <div className={`${darkMode ? "bg-blue-950" : "bg-white text-black"} p-8 rounded-3xl shadow-2xl w-[700px]`}>
+    <div className={`${darkMode ? "bg-blue-950 border-blue-900" : "bg-white border-gray-400 text-black"} border-1 p-8 rounded-3xl shadow-2xl w-[700px]`}>
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
         <div>
