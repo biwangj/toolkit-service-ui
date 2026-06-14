@@ -1,4 +1,3 @@
-import { Card, CardContent, Typography } from "@mui/material";
 import type { ElementType } from "react";
 
 type FeatureCardProps = {
@@ -20,7 +19,7 @@ export default function CustomCard({
   return (
     <div
       onClick={onClick}
-      className={`mb-4 flex flex-col rounded-2xl overflow-hidden shadow-gray-600 w-[380px] h-[200px]
+      className={`mb-4 flex flex-col rounded-2xl overflow-hidden shadow-gray-600 w-full max-w-[380] min-h-[200px]
                     hover:cursor-pointer transition-all ease-in-out duration-200 hover:-translate-y-4 hover:shadow-2xl p-6
                     ${darkMode ? "bg-green-600 border-1 border-green-900 hover:border-blue-900" 
                     : "text-black bg-gray-100 border-1 border-gray-700 hover:border-gray-700"}`}>

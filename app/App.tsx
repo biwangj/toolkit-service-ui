@@ -62,7 +62,7 @@ export default function App() {
             className={`flex-1 items-center justify-center p-8 ${selectedPage === "" ? "" : "flex"}`}
           >
             {!selectedPage && (
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {features.map((feature) => (
                   <FadeSection key={feature.key}>
                     <CustomCard

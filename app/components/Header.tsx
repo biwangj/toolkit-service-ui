@@ -35,21 +35,13 @@ export default function Header({
        
         <div
           onClick={() => setDarkMode(!darkMode)}
-          className={`relative h-10 w-20 cursor-pointer rounded-full p-1 transition-all duration-300
+          className={`relative h-6 w-12 cursor-pointer rounded-full p-1 transition-all duration-300
            ${darkMode ? "bg-slate-950" : "bg-gray-300"}`}
         >
-          <div className={`relative h-8 w-8 rounded-full transition-all duration-300
+          <div className={`relative h-4 w-4 rounded-full transition-all duration-300
               ${darkMode
                   ? "bg-gray-100 shadow-[0_0_50px_rgba(255,255,255,1)]"
-                  : "bg-yellow-300 shadow-[0_0_50px_rgba(249,240,104,1)] translate-x-10"}`}>
-            <div className={`
-                absolute left-2 top-5 h-2 w-2 rounded-full bg-gray-300/50 transition-all duration-500
-                ${!darkMode ? "opacity-0" : ""}`} />
-            <div className={`absolute left-5 top-4 h-2 w-2 rounded-full bg-gray-300/50 transition-all duration-500
-                ${!darkMode ? "opacity-0" : ""}`} />
-            <div className={`
-                absolute left-2 top-1 h-3 w-3 rounded-full bg-gray-300/50 transition-all duration-500
-                ${!darkMode ? "opacity-0" : ""}`} />
+                  : "bg-yellow-300 shadow-[0_0_50px_rgba(249,240,104,1)] translate-x-6"}`}>
           </div>
         </div>
       </div>
